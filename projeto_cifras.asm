@@ -170,7 +170,7 @@ xor_iteracao:
     add $t2, $t0, $t1    
     lb $t3, 0($t2)       
 
-   a
+   
     beqz $t3, print_result
     beq $t3, 10, print_result 
 
